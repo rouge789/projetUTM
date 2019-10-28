@@ -1,0 +1,14 @@
+git add XXXXX
+git commit -m "XXXX"
+git commit -a -m "XXXXX" mets à jour
+
+#revenir à certain point :
+git checkout SHA
+#revenir branche principale:
+git checkout master
+#Crée nouveau commit qui fait l'inverse du commit
+git revert SHA
+#modifier message du dernier commit 
+git commit --amend -m "XXXX"
+#Annuler tous le changement sans avoir commit
+git reset --hard
